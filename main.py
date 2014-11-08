@@ -1,5 +1,5 @@
 import newspaper
-from weasyprint import HTML
+
 from newspaper import news_pool
 
 
