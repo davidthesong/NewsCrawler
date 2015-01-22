@@ -31,7 +31,6 @@ while True:
           print url
           filename = "html/" + article.title + ".html"
           filename = filename.replace("'", "")
-          pngfilename = "png/" + article.title + ".png"
           print filename.encode('utf-8')
           htmlfile = open(filename.encode('utf-8'), "wb")
           htmlfile.write(htmlcode.encode('utf-8'))
